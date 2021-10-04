@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>PINJOL REGISTRATION</title>
+    </head>
+    <body>
+        <form action="" method="post"> 
+        <fieldset>
+        <legend align="center">PINJOL REGISTRATION</legend>
+        Name: <input type = "text" name = "nama" required placeholder="Name" autofocus>
+        <br>
+        <br>
+        Gender 
+        <input type="radio" name="jenis_kelamin" value="L"> Laki-laki
+        <input type="radio" name="jenis_kelamin" value="P"> Perempuan
+        <br>
+        <br>
+        Address: <input type = "text" name = "address" placeholder="Address">
+        <br>
+        <br>
+        Country: <select name="Country">
+            <option value=’CC’>Indonesia</option>
+            <option value=’SI’> Malaysia </option>
+            <option value=’CAI’> singapura </option>
+            </select> 
+        <br>    
+        <br>
+        Email: <input type = "text" name = "email" requied placeholder="Email">
+        <br>    
+        <br>
+        NO KTP: <input type="text" id="noKTP" name="nomorKTP" required pattern="[0-9] {16}" title="noKTP adalah 16 digit angka"> 
+        <br>    
+        <br>
+        Photo: <input type = "text" name = "file">
+        <input type="file" accept="image/*"/>
+        <br>
+        <br>
+    
+
+        Comment:
+        <textarea rows="7" cols="70" name="tentang"></textarea><br/> 
+        <br>
+        Codepos: <input type="text" name="codepos" pattern= "[0-9] {5}" title="five digit code pos">
+        <br><br>
+        <input type="submit" name="submit" value="submit"> 
+                
+        </fieldset>
+        </form>
+    </body>
+    <aside>
+        <br>
+        <br>
+        <br>
+        <table border="2">
+            <tr>
+              <th>Dana</th>
+              <th>Bunga</th>
+              <th>Durasi</th>
+            </tr>
+            <tr>
+              <td>5000</td>
+              <td>76%</td>
+              <td>60mnt</td>
+            </tr>
+            <tr>
+              <td>10000</td>
+              <td>75%</td>
+              <td>90mnt</td>
+            </tr>
+          </table>
+
+        <p>Keuntungan Pinjol</p>
+        <ul type="square">
+            <li>Dana cepat cair</li>
+            <li>Cepat ditagih</li>
+        </ul> 
+        <nav>
+            <a href="https://dukcapil.kemendagri.go.id/">KTP</a>
+        </nav>
+    </aside>
+       
+    
+</html>
